@@ -1,20 +1,20 @@
+
 body {
     background-image: url(../imgs/fundo-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
+    font-family: roboto;
 }
 
 .cabecalho {
     text-align: center;
-    padding: 60px 0;
 }
 
-.cabecalho h1{
-    color: #080808;
-    font-size: 45px;
-    letter-spacing: 10px;
-    text-transform: uppercase;
+.cabecalho img {
+    max-width: 350px;
+    max-height: 200px;
+    padding: 10px 0;
 }
 
 .cartas-slide {
@@ -134,4 +134,21 @@ body {
 .cartao.fundo-6 {
     background: url('../imgs/fundo-6.jpg')
     no-repeat;
+}
+
+/* Editar barra de rolagem */
+::-webkit-scrollbar {
+    width: 8px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Cor de fundo da trilha */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; /* Cor do polegar */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Cor do polegar ao passar o mouse */
 }
